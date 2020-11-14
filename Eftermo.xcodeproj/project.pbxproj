@@ -56,15 +56,55 @@
 		73B65313255FFBF8002BD5A0 /* Eftermo */ = {
 			isa = PBXGroup;
 			children = (
-				73B65314255FFBF8002BD5A0 /* AppDelegate.swift */,
-				73B65316255FFBF8002BD5A0 /* SceneDelegate.swift */,
-				73B65318255FFBF8002BD5A0 /* ViewController.swift */,
-				73B6531A255FFBF8002BD5A0 /* Main.storyboard */,
-				73B6531D255FFBFB002BD5A0 /* Assets.xcassets */,
-				73B6531F255FFBFB002BD5A0 /* LaunchScreen.storyboard */,
-				73B65322255FFBFB002BD5A0 /* Info.plist */,
+				73B6532E255FFD50002BD5A0 /* View Controllers */,
+				73B6532D255FFD48002BD5A0 /* Helpers */,
+				73B6532C255FFD3E002BD5A0 /* Resources */,
+				73B6532B255FFD33002BD5A0 /* Storyboards */,
+				73B6532A255FFD24002BD5A0 /* Extensions */,
 			);
 			path = Eftermo;
+			sourceTree = "<group>";
+		};
+		73B6532A255FFD24002BD5A0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		73B6532B255FFD33002BD5A0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				73B6531F255FFBFB002BD5A0 /* LaunchScreen.storyboard */,
+				73B6531A255FFBF8002BD5A0 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		73B6532C255FFD3E002BD5A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73B65322255FFBFB002BD5A0 /* Info.plist */,
+				73B6531D255FFBFB002BD5A0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		73B6532D255FFD48002BD5A0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		73B6532E255FFD50002BD5A0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				73B65314255FFBF8002BD5A0 /* AppDelegate.swift */,
+				73B65318255FFBF8002BD5A0 /* ViewController.swift */,
+				73B65316255FFBF8002BD5A0 /* SceneDelegate.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +328,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DMJLQZ5N5;
-				INFOPLIST_FILE = Eftermo/Info.plist;
+				INFOPLIST_FILE = Eftermo/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +348,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DMJLQZ5N5;
-				INFOPLIST_FILE = Eftermo/Info.plist;
+				INFOPLIST_FILE = Eftermo/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
