@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		734AFF212562E10D0058E2C1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734AFF202562E10D0058E2C1 /* HomeViewController.swift */; };
+		734AFF272562F8FB0058E2C1 /* RaporlarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734AFF262562F8FB0058E2C1 /* RaporlarViewController.swift */; };
+		734AFF2A2562FB390058E2C1 /* BildirimlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734AFF292562FB390058E2C1 /* BildirimlerViewController.swift */; };
+		734AFF2D2562FB470058E2C1 /* AyarlarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734AFF2C2562FB470058E2C1 /* AyarlarViewController.swift */; };
 		73B65315255FFBF8002BD5A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B65314255FFBF8002BD5A0 /* AppDelegate.swift */; };
 		73B65317255FFBF8002BD5A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B65316255FFBF8002BD5A0 /* SceneDelegate.swift */; };
-		73B65319255FFBF8002BD5A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B65318255FFBF8002BD5A0 /* ViewController.swift */; };
+		73B65319255FFBF8002BD5A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B65318255FFBF8002BD5A0 /* LoginViewController.swift */; };
 		73B6531C255FFBF8002BD5A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B6531A255FFBF8002BD5A0 /* Main.storyboard */; };
 		73B6531E255FFBFB002BD5A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B6531D255FFBFB002BD5A0 /* Assets.xcassets */; };
 		73B65321255FFBFB002BD5A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B6531F255FFBFB002BD5A0 /* LaunchScreen.storyboard */; };
+		73F96D5B2560096F00AEE7DA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F96D5A2560096F00AEE7DA /* Helper.swift */; };
+		73F96D5E2560099900AEE7DA /* UserDefault+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F96D5D2560099900AEE7DA /* UserDefault+Extension.swift */; };
+		D31E7943FB3BA1B437D835E4 /* Pods_Eftermo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D3E5CE6009765932D82779 /* Pods_Eftermo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17D3E5CE6009765932D82779 /* Pods_Eftermo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eftermo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C0EC5AACFB75D045B4E2D0 /* Pods-Eftermo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eftermo.release.xcconfig"; path = "Target Support Files/Pods-Eftermo/Pods-Eftermo.release.xcconfig"; sourceTree = "<group>"; };
+		734AFF202562E10D0058E2C1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		734AFF262562F8FB0058E2C1 /* RaporlarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaporlarViewController.swift; sourceTree = "<group>"; };
+		734AFF292562FB390058E2C1 /* BildirimlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BildirimlerViewController.swift; sourceTree = "<group>"; };
+		734AFF2C2562FB470058E2C1 /* AyarlarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyarlarViewController.swift; sourceTree = "<group>"; };
 		73B65311255FFBF8002BD5A0 /* Eftermo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eftermo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B65314255FFBF8002BD5A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73B65316255FFBF8002BD5A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		73B65318255FFBF8002BD5A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73B65318255FFBF8002BD5A0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		73B6531B255FFBF8002BD5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73B6531D255FFBFB002BD5A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73B65320255FFBFB002BD5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73B65322255FFBFB002BD5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73F96D5A2560096F00AEE7DA /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		73F96D5D2560099900AEE7DA /* UserDefault+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefault+Extension.swift"; sourceTree = "<group>"; };
+		7E3B42628226CF94C209756C /* Pods-Eftermo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eftermo.debug.xcconfig"; path = "Target Support Files/Pods-Eftermo/Pods-Eftermo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D31E7943FB3BA1B437D835E4 /* Pods_Eftermo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				73B65313255FFBF8002BD5A0 /* Eftermo */,
 				73B65312255FFBF8002BD5A0 /* Products */,
+				BB3D68685437D0467095CB8A /* Pods */,
+				7A9E0A20D0136B287EB682A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +87,7 @@
 		73B6532A255FFD24002BD5A0 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				73F96D5D2560099900AEE7DA /* UserDefault+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -93,6 +113,7 @@
 		73B6532D255FFD48002BD5A0 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				73F96D5A2560096F00AEE7DA /* Helper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -101,10 +122,31 @@
 			isa = PBXGroup;
 			children = (
 				73B65314255FFBF8002BD5A0 /* AppDelegate.swift */,
-				73B65318255FFBF8002BD5A0 /* ViewController.swift */,
+				73B65318255FFBF8002BD5A0 /* LoginViewController.swift */,
 				73B65316255FFBF8002BD5A0 /* SceneDelegate.swift */,
+				734AFF202562E10D0058E2C1 /* HomeViewController.swift */,
+				734AFF262562F8FB0058E2C1 /* RaporlarViewController.swift */,
+				734AFF292562FB390058E2C1 /* BildirimlerViewController.swift */,
+				734AFF2C2562FB470058E2C1 /* AyarlarViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7A9E0A20D0136B287EB682A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17D3E5CE6009765932D82779 /* Pods_Eftermo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB3D68685437D0467095CB8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B42628226CF94C209756C /* Pods-Eftermo.debug.xcconfig */,
+				69C0EC5AACFB75D045B4E2D0 /* Pods-Eftermo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73B65325255FFBFB002BD5A0 /* Build configuration list for PBXNativeTarget "Eftermo" */;
 			buildPhases = (
+				2F5F6ABD13FFF6930AAE4B90 /* [CP] Check Pods Manifest.lock */,
 				73B6530D255FFBF8002BD5A0 /* Sources */,
 				73B6530E255FFBF8002BD5A0 /* Frameworks */,
 				73B6530F255FFBF8002BD5A0 /* Resources */,
+				611B567C6116D0CEC287B694 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,14 +216,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F5F6ABD13FFF6930AAE4B90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eftermo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		611B567C6116D0CEC287B694 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eftermo/Pods-Eftermo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eftermo/Pods-Eftermo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eftermo/Pods-Eftermo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		73B6530D255FFBF8002BD5A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B65319255FFBF8002BD5A0 /* ViewController.swift in Sources */,
+				734AFF2A2562FB390058E2C1 /* BildirimlerViewController.swift in Sources */,
+				73F96D5E2560099900AEE7DA /* UserDefault+Extension.swift in Sources */,
+				73B65319255FFBF8002BD5A0 /* LoginViewController.swift in Sources */,
 				73B65315255FFBF8002BD5A0 /* AppDelegate.swift in Sources */,
 				73B65317255FFBF8002BD5A0 /* SceneDelegate.swift in Sources */,
+				734AFF272562F8FB0058E2C1 /* RaporlarViewController.swift in Sources */,
+				73F96D5B2560096F00AEE7DA /* Helper.swift in Sources */,
+				734AFF2D2562FB470058E2C1 /* AyarlarViewController.swift in Sources */,
+				734AFF212562E10D0058E2C1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +415,7 @@
 		};
 		73B65326255FFBFB002BD5A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3B42628226CF94C209756C /* Pods-Eftermo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -343,6 +436,7 @@
 		};
 		73B65327255FFBFB002BD5A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C0EC5AACFB75D045B4E2D0 /* Pods-Eftermo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
