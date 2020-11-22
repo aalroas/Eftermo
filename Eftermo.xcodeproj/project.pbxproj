@@ -11,12 +11,13 @@
 		734AFF272562F8FB0058E2C1 /* RaporlarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734AFF262562F8FB0058E2C1 /* RaporlarViewController.swift */; };
 		734AFF2A2562FB390058E2C1 /* BildirimlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734AFF292562FB390058E2C1 /* BildirimlerViewController.swift */; };
 		734AFF2D2562FB470058E2C1 /* AyarlarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734AFF2C2562FB470058E2C1 /* AyarlarViewController.swift */; };
+		738B4C32256854EC00D1CE9D /* AyarlarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738B4C31256854EC00D1CE9D /* AyarlarTableViewController.swift */; };
 		73B65315255FFBF8002BD5A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B65314255FFBF8002BD5A0 /* AppDelegate.swift */; };
 		73B65317255FFBF8002BD5A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B65316255FFBF8002BD5A0 /* SceneDelegate.swift */; };
 		73B65319255FFBF8002BD5A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B65318255FFBF8002BD5A0 /* LoginViewController.swift */; };
 		73B6531C255FFBF8002BD5A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B6531A255FFBF8002BD5A0 /* Main.storyboard */; };
 		73B6531E255FFBFB002BD5A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B6531D255FFBFB002BD5A0 /* Assets.xcassets */; };
-		73B65321255FFBFB002BD5A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B6531F255FFBFB002BD5A0 /* LaunchScreen.storyboard */; };
+		73C313CA25694B78003F30EB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C313C925694B78003F30EB /* Launch Screen.storyboard */; };
 		73F96D5B2560096F00AEE7DA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F96D5A2560096F00AEE7DA /* Helper.swift */; };
 		73F96D5E2560099900AEE7DA /* UserDefault+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F96D5D2560099900AEE7DA /* UserDefault+Extension.swift */; };
 		D31E7943FB3BA1B437D835E4 /* Pods_Eftermo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D3E5CE6009765932D82779 /* Pods_Eftermo.framework */; };
@@ -29,14 +30,15 @@
 		734AFF262562F8FB0058E2C1 /* RaporlarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaporlarViewController.swift; sourceTree = "<group>"; };
 		734AFF292562FB390058E2C1 /* BildirimlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BildirimlerViewController.swift; sourceTree = "<group>"; };
 		734AFF2C2562FB470058E2C1 /* AyarlarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyarlarViewController.swift; sourceTree = "<group>"; };
+		738B4C31256854EC00D1CE9D /* AyarlarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyarlarTableViewController.swift; sourceTree = "<group>"; };
 		73B65311255FFBF8002BD5A0 /* Eftermo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eftermo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B65314255FFBF8002BD5A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73B65316255FFBF8002BD5A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		73B65318255FFBF8002BD5A0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		73B6531B255FFBF8002BD5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73B6531D255FFBFB002BD5A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		73B65320255FFBFB002BD5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73B65322255FFBFB002BD5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73C313C925694B78003F30EB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		73F96D5A2560096F00AEE7DA /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		73F96D5D2560099900AEE7DA /* UserDefault+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefault+Extension.swift"; sourceTree = "<group>"; };
 		7E3B42628226CF94C209756C /* Pods-Eftermo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eftermo.debug.xcconfig"; path = "Target Support Files/Pods-Eftermo/Pods-Eftermo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,8 +97,8 @@
 		73B6532B255FFD33002BD5A0 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				73B6531F255FFBFB002BD5A0 /* LaunchScreen.storyboard */,
 				73B6531A255FFBF8002BD5A0 /* Main.storyboard */,
+				73C313C925694B78003F30EB /* Launch Screen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -128,6 +130,7 @@
 				734AFF262562F8FB0058E2C1 /* RaporlarViewController.swift */,
 				734AFF292562FB390058E2C1 /* BildirimlerViewController.swift */,
 				734AFF2C2562FB470058E2C1 /* AyarlarViewController.swift */,
+				738B4C31256854EC00D1CE9D /* AyarlarTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -208,7 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B65321255FFBFB002BD5A0 /* LaunchScreen.storyboard in Resources */,
+				73C313CA25694B78003F30EB /* Launch Screen.storyboard in Resources */,
 				73B6531E255FFBFB002BD5A0 /* Assets.xcassets in Resources */,
 				73B6531C255FFBF8002BD5A0 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +274,7 @@
 				734AFF272562F8FB0058E2C1 /* RaporlarViewController.swift in Sources */,
 				73F96D5B2560096F00AEE7DA /* Helper.swift in Sources */,
 				734AFF2D2562FB470058E2C1 /* AyarlarViewController.swift in Sources */,
+				738B4C32256854EC00D1CE9D /* AyarlarTableViewController.swift in Sources */,
 				734AFF212562E10D0058E2C1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,14 +288,6 @@
 				73B6531B255FFBF8002BD5A0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		73B6531F255FFBFB002BD5A0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				73B65320255FFBFB002BD5A0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -422,7 +418,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DMJLQZ5N5;
 				INFOPLIST_FILE = Eftermo/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,7 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DMJLQZ5N5;
 				INFOPLIST_FILE = Eftermo/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

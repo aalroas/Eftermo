@@ -8,8 +8,9 @@
 import UIKit
 import Foundation
 import SVProgressHUD
+import SafariServices
 
-class LoginViewController: UIViewController,UITextFieldDelegate {
+class LoginViewController: UIViewController,UITextFieldDelegate, SFSafariViewControllerDelegate {
 
     @IBOutlet weak var usernameTextField: UITextField!
     
@@ -68,6 +69,13 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
                         UserDefaults.standard.accessToken = accessToken
                         UserDefaults.standard.username = self.usernameTextField.text
                         UserDefaults.standard.password = self.passwordTextField.text
+                        
+                        let sendSettings = AyarlarTableViewController()
+                        sendSettings.sendSeting(settingStatus: 1)
+                        UserDefaults.standard.ServisDurumuStatus = true
+                        sendSettings.sendSeting(settingStatus: 3)
+                        UserDefaults.standard.akilliBildirimStatus = true
+                        
 //                        if UserDefaults.standard.isNotificationPermissionGranted {
 //                            let sendDeviceToken = HomeViewController()
 //                            sendDeviceToken.sendDeviceToken(uAccessToken: UserDefaults.standard.accessToken ?? "" , UdeviceToken: UserDefaults.standard.DeviceToken ?? "")
@@ -103,9 +111,42 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
 
     
     
+    @IBAction func detayliBilgiButton(_ sender: Any) {
+        let urlString = "https://eftermo.com/"
+        if let url = URL(string: urlString) {
+            let vc = SFSafariViewController(url: url)
+            vc.delegate = self
+            present(vc, animated: true)
+        }
+    }
+    
+    @IBAction func wwwButton(_ sender: Any) {
+        let urlString = "https://eftermo.com/"
+        if let url = URL(string: urlString) {
+            let vc = SFSafariViewController(url: url)
+            vc.delegate = self
+            present(vc, animated: true)
+        }
+    }
+    
+    @IBAction func kurulumuButton(_ sender: Any) {
+        let urlString = "https://eftermo.com/tr/eftermo-kurulum"
+        if let url = URL(string: urlString) {
+            let vc = SFSafariViewController(url: url)
+            vc.delegate = self
+            present(vc, animated: true)
+        }
+    }
+    
+    func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
+        dismiss(animated: true)
+    }
+
   
 }
-    extension LoginViewController {
+
+
+extension LoginViewController {
        
        
     func initializeHideKeyboard(){

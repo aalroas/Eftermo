@@ -94,6 +94,44 @@ extension UserDefaults {
         }
     }
     
+    
+    var ServisDurumuStatus: Bool {
+        set {
+            setValue(newValue, forKey: #function)
+        }
+        get {
+            bool(forKey: #function)
+        }
+    }
+    
+    
+    var anlikBildirimStatus: Bool {
+        set {
+            setValue(newValue, forKey: #function)
+        }
+        get {
+            bool(forKey: #function)
+        }
+    }
+    
+    var akilliBildirimStatus: Bool {
+        set {
+            setValue(newValue, forKey: #function)
+        }
+        get {
+            bool(forKey: #function)
+        }
+    }
+    
+    var smsBildirimStatus: Bool {
+        set {
+            setValue(newValue, forKey: #function)
+        }
+        get {
+            bool(forKey: #function)
+        }
+    }
+    
  
     
     func removeAll() {
