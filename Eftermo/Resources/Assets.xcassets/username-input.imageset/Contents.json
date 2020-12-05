@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "PasswordTextField.png",
+      "filename" : "username-input.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "PasswordTextField@2x.png",
+      "filename" : "username-input@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "PasswordTextField@3x.png",
+      "filename" : "username-input@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
