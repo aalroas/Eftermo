@@ -261,11 +261,18 @@ class HomeViewController: UIViewController,WKNavigationDelegate,WKUIDelegate,SFS
             print("no accessToken yet")
             return
         }
+        if UserDefaults.standard.DeviceToken == nil {
+            print("no DeviceToken yet")
+            return
+        }
+        
         print(UserDefaults.standard.DeviceToken ?? "No Token")
         print(UserDefaults.standard.accessToken ?? "No accessToken")
         guard let url = URL(string: "https://eftermo.com/mobil/apple/userknt.php") else {
                     return
                 }
+        
+        
 
          let data : Data =  "gkad=\(uName)&gsif=\(uPassword)&device_token=\(uDeviceToken)".data(using: .utf8)!
                 var request : URLRequest = URLRequest(url: url)
