@@ -47,6 +47,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneDidBecomeActive(_ scene: UIScene) {
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
+        
+        if !UIApplication.shared.connectedScenes.contains(where: { $0.activationState == .foregroundActive && $0 != scene }) {
+            UIApplication.shared.delegate?.applicationDidBecomeActive?(.shared)
+        }
+        
     }
     @available(iOS 13.0, *)
     func sceneWillResignActive(_ scene: UIScene) {
@@ -63,6 +68,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called as the scene transitions from the foreground to the background.
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
+        
+//        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+        
     }
     
     func changeRootViewController(_ vc: UIViewController, animated: Bool = true) {

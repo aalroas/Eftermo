@@ -34,9 +34,9 @@ class LoginViewController: UIViewController,UITextFieldDelegate, SFSafariViewCon
           return
         }
         
-        
-        
-        let data : Data =  "gkad=\(usernameTextField.text!)&gsif=\(passwordTextField.text!)".data(using: .utf8)!
+       print("DeviceToken in login")
+    
+        let data : Data =  "gkad=\(usernameTextField.text!)&gsif=\(passwordTextField.text!)&device_token=\(UserDefaults.standard.DeviceToken  ?? "0")".data(using: .utf8)!
                 var request : URLRequest = URLRequest(url: url)
                 request.httpMethod = "POST"
                 request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField:"Content-Type");
@@ -75,11 +75,6 @@ class LoginViewController: UIViewController,UITextFieldDelegate, SFSafariViewCon
                         UserDefaults.standard.ServisDurumuStatus = true
                         sendSettings.sendSeting(settingStatus: 3)
                         UserDefaults.standard.akilliBildirimStatus = true
-                        
-//                        if UserDefaults.standard.isNotificationPermissionGranted {
-//                            let sendDeviceToken = HomeViewController()
-//                            sendDeviceToken.sendDeviceToken(uAccessToken: UserDefaults.standard.accessToken ?? "" , UdeviceToken: UserDefaults.standard.DeviceToken ?? "")
-//                        }
                         SVProgressHUD.dismiss()
                         let storyboard = UIStoryboard(name: "Main", bundle: nil)
                         let homeController = storyboard.instantiateViewController(withIdentifier: "home")
@@ -102,8 +97,6 @@ class LoginViewController: UIViewController,UITextFieldDelegate, SFSafariViewCon
         initializeHideKeyboard()
         usernameTextField.delegate = self
         passwordTextField.delegate = self
-//        termsButtonOutlet.underline()
-//        privacyPolicyButtonOutlet.underline()
         makeTextFieldBorderstyle()
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(sender:)), name: UIResponder.keyboardWillShowNotification, object: nil);
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(sender:)), name: UIResponder.keyboardWillHideNotification, object: nil);

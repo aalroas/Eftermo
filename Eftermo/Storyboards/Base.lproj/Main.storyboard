@@ -20,17 +20,17 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" highlightedImage="background" translatesAutoresizingMaskIntoConstraints="NO" id="0iF-L1-1UF" userLabel="background">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QMZ-AJ-qaa">
-                                <rect key="frame" x="31.666666666666657" y="42" width="326.66666666666674" height="72"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QMZ-AJ-qaa">
+                                <rect key="frame" x="25" y="42" width="323" height="67"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logogiris" translatesAutoresizingMaskIntoConstraints="NO" id="Nzk-Kw-9Eu">
-                                        <rect key="frame" x="21" y="5" width="69" height="66.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="5" width="69.333333333333329" height="66.333333333333329"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Nzk-Kw-9Eu" secondAttribute="height" multiplier="77:74" id="uuG-a6-xtU"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hoşgeldiniz." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RjS-Ke-FY6">
-                                        <rect key="frame" x="106.99999999999999" y="18" width="204.66666666666663" height="52"/>
+                                        <rect key="frame" x="86.333333333333357" y="18" width="204.66666666666663" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="RjS-Ke-FY6" secondAttribute="height" multiplier="114:29" id="Uzt-fP-G37"/>
                                         </constraints>
@@ -42,7 +42,7 @@
                                 <constraints>
                                     <constraint firstItem="RjS-Ke-FY6" firstAttribute="width" secondItem="Nzk-Kw-9Eu" secondAttribute="width" multiplier="2.96104" id="C83-NE-cLK"/>
                                     <constraint firstItem="Nzk-Kw-9Eu" firstAttribute="top" secondItem="QMZ-AJ-qaa" secondAttribute="top" constant="5" id="NIS-6j-mMO"/>
-                                    <constraint firstItem="Nzk-Kw-9Eu" firstAttribute="leading" secondItem="QMZ-AJ-qaa" secondAttribute="leading" constant="21" id="RuX-qB-9ls"/>
+                                    <constraint firstItem="Nzk-Kw-9Eu" firstAttribute="leading" secondItem="QMZ-AJ-qaa" secondAttribute="leading" id="RuX-qB-9ls"/>
                                     <constraint firstItem="RjS-Ke-FY6" firstAttribute="width" secondItem="Nzk-Kw-9Eu" secondAttribute="height" multiplier="114:37" id="UnP-OZ-zVb"/>
                                     <constraint firstAttribute="width" secondItem="QMZ-AJ-qaa" secondAttribute="height" multiplier="358:79" id="YZP-jK-o5Z"/>
                                     <constraint firstItem="RjS-Ke-FY6" firstAttribute="height" secondItem="Nzk-Kw-9Eu" secondAttribute="height" multiplier="0.783784" id="e7s-ER-tMh"/>
@@ -52,7 +52,7 @@
                                 </constraints>
                             </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qL8-xR-UHL" userLabel="intero 1">
-                                <rect key="frame" x="25" y="122" width="340" height="83"/>
+                                <rect key="frame" x="25" y="117.33333333333331" width="340" height="83"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="qL8-xR-UHL" secondAttribute="height" multiplier="340:83" id="7hW-Yi-kzH"/>
                                     <constraint firstAttribute="height" constant="83" id="j25-M3-8Rt"/>
@@ -65,7 +65,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Yerli yazılım ve tasarım. Üretim , arge ve kontrol hizmetler Türkiye de yapılmaktadır." selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9F-Yw-hIQ" userLabel="iintero 2">
-                                <rect key="frame" x="25" y="205" width="340" height="77"/>
+                                <rect key="frame" x="25" y="200.33333333333334" width="340" height="77.000000000000028"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="77" id="JEi-cw-aor"/>
                                     <constraint firstAttribute="width" secondItem="F9F-Yw-hIQ" secondAttribute="height" multiplier="340:77" id="e1a-Lh-AsH"/>
@@ -76,7 +76,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Kullanıcı Adınız" textAlignment="center" minimumFontSize="17" background="username-input" disabledBackground="username-input" translatesAutoresizingMaskIntoConstraints="NO" id="2Eb-Eu-mhb">
-                                <rect key="frame" x="40" y="401" width="310" height="49"/>
+                                <rect key="frame" x="40" y="396.33333333333331" width="310" height="49"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="310" id="BcS-0V-f27"/>
                                     <constraint firstAttribute="width" secondItem="2Eb-Eu-mhb" secondAttribute="height" multiplier="310:49" id="cIn-HS-oDg"/>
@@ -92,7 +92,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Parola" textAlignment="center" minimumFontSize="17" background="password-input" disabledBackground="password-input" translatesAutoresizingMaskIntoConstraints="NO" id="Mbr-d3-Hbe">
-                                <rect key="frame" x="40" y="465" width="310" height="45"/>
+                                <rect key="frame" x="40" y="460.33333333333331" width="310" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="4Us-se-YSK"/>
                                     <constraint firstAttribute="width" constant="310" id="Jcq-2s-B2r"/>
@@ -100,7 +100,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                 </constraints>
                                 <color key="textColor" white="1" alpha="0.49656533349999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" textContentType="password"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
                                         <color key="value" white="1" alpha="0.49656533348639287" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -108,7 +108,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fds-o8-FGQ">
-                                <rect key="frame" x="7.6666666666666572" y="543" width="375" height="53"/>
+                                <rect key="frame" x="7.6666666666666572" y="538.33333333333337" width="375" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="KDU-W1-rBN"/>
                                     <constraint firstAttribute="width" secondItem="fds-o8-FGQ" secondAttribute="height" multiplier="375:53" id="cbK-t2-GZB"/>
@@ -120,7 +120,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9P-VB-2MN" userLabel="www-button">
-                                <rect key="frame" x="126.66666666666669" y="619" width="137" height="35"/>
+                                <rect key="frame" x="126.66666666666669" y="614.33333333333337" width="137" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="137" id="Shh-DC-sZH"/>
                                     <constraint firstAttribute="width" secondItem="D9P-VB-2MN" secondAttribute="height" multiplier="137:35" id="TAj-Qo-UeX"/>
@@ -132,7 +132,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zLz-BO-ifc">
-                                <rect key="frame" x="25" y="269" width="340" height="72"/>
+                                <rect key="frame" x="25" y="264.33333333333331" width="340" height="72"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8op-1G-5ov" userLabel="detayli bilgi">
                                         <rect key="frame" x="8" y="6" width="113" height="58"/>
@@ -229,7 +229,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                             <constraint firstItem="tdl-OE-yAh" firstAttribute="trailing" secondItem="EAP-JD-zfs" secondAttribute="trailing" id="lap-7e-vNt"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Raporlar" image="rapor" id="PCf-ec-tc7"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="Raporlar" image="rapor" id="PCf-ec-tc7"/>
                     <connections>
                         <outlet property="myWebView" destination="tdl-OE-yAh" id="ebQ-Fx-Acu"/>
                     </connections>
@@ -264,7 +264,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                             <constraint firstItem="ph7-8t-XnP" firstAttribute="top" secondItem="fwL-xY-PBq" secondAttribute="top" id="saG-Yz-cBq"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Bildirimler" image="bildirim" id="n9A-vV-heT"/>
+                    <tabBarItem key="tabBarItem" tag="3" title="Bildirimler" image="bildirim" id="n9A-vV-heT"/>
                     <connections>
                         <outlet property="myWebView" destination="ph7-8t-XnP" id="uyn-u6-176"/>
                     </connections>
@@ -276,7 +276,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
         <!--Ayarlar-->
         <scene sceneID="krk-D3-Nfy">
             <objects>
-                <viewController id="U70-sz-zMG" customClass="AyarlarViewController" customModule="Eftermo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ayarlar" id="U70-sz-zMG" customClass="AyarlarViewController" customModule="Eftermo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xm4-XZ-iJL">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -347,7 +347,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                             <constraint firstItem="tZO-BC-OXW" firstAttribute="centerX" secondItem="Xm4-XZ-iJL" secondAttribute="centerX" id="ptM-4t-uVX"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Ayarlar" image="settings" id="snV-rb-vTq"/>
+                    <tabBarItem key="tabBarItem" tag="4" title="Ayarlar" image="settings" id="snV-rb-vTq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tdi-oS-4uH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -372,7 +372,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bildirim Servis Durumu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hA6-Cv-klA">
-                                                    <rect key="frame" x="10" y="7" width="172.66666666666666" height="21"/>
+                                                    <rect key="frame" x="10" y="7" width="173" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="qJl-sK-uXn"/>
                                                     </constraints>
@@ -390,7 +390,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KLV-jG-pkj">
-                                                    <rect key="frame" x="326" y="15.666666666666664" width="51" height="31"/>
+                                                    <rect key="frame" x="331" y="15.666666666666664" width="51" height="31"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="49" id="7ek-wp-A4k"/>
                                                         <constraint firstAttribute="height" constant="31" id="UvG-7f-6oY"/>
@@ -401,7 +401,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                                 <constraint firstItem="hA6-Cv-klA" firstAttribute="leading" secondItem="gVY-89-IJW" secondAttribute="leading" constant="10" id="1L8-dF-RPf"/>
                                                 <constraint firstItem="EKa-Oa-cOy" firstAttribute="leading" secondItem="hA6-Cv-klA" secondAttribute="leading" id="4B9-Ne-aid"/>
                                                 <constraint firstItem="KLV-jG-pkj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="EKa-Oa-cOy" secondAttribute="trailing" constant="8" symbolic="YES" id="8f8-z8-XGS"/>
-                                                <constraint firstAttribute="trailing" secondItem="KLV-jG-pkj" secondAttribute="trailing" constant="15" id="JFe-YB-ZoS"/>
+                                                <constraint firstAttribute="trailing" secondItem="KLV-jG-pkj" secondAttribute="trailing" constant="10" id="JFe-YB-ZoS"/>
                                                 <constraint firstItem="EKa-Oa-cOy" firstAttribute="top" secondItem="hA6-Cv-klA" secondAttribute="bottom" constant="8" symbolic="YES" id="UVt-jX-jrj"/>
                                                 <constraint firstItem="KLV-jG-pkj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="hA6-Cv-klA" secondAttribute="trailing" constant="8" symbolic="YES" id="eG8-6a-Uni"/>
                                                 <constraint firstItem="hA6-Cv-klA" firstAttribute="top" secondItem="gVY-89-IJW" secondAttribute="top" constant="7" id="eSB-dd-bRO"/>
@@ -435,7 +435,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6zL-pR-Ir5">
-                                                    <rect key="frame" x="326" y="15.666666666666664" width="51" height="31"/>
+                                                    <rect key="frame" x="331" y="15.666666666666664" width="51" height="31"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="49" id="1Zf-7d-bFr"/>
                                                         <constraint firstAttribute="height" constant="31" id="LVQ-4U-ywB"/>
@@ -444,7 +444,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="fHT-S6-uM0" firstAttribute="leading" secondItem="l4M-39-jqW" secondAttribute="leading" id="6Mg-YL-qaV"/>
-                                                <constraint firstAttribute="trailing" secondItem="6zL-pR-Ir5" secondAttribute="trailing" constant="15" id="FYt-CH-Mhl"/>
+                                                <constraint firstAttribute="trailing" secondItem="6zL-pR-Ir5" secondAttribute="trailing" constant="10" id="FYt-CH-Mhl"/>
                                                 <constraint firstItem="fHT-S6-uM0" firstAttribute="top" secondItem="l4M-39-jqW" secondAttribute="bottom" constant="8" symbolic="YES" id="FbS-xh-h1R"/>
                                                 <constraint firstItem="l4M-39-jqW" firstAttribute="leading" secondItem="9EH-5z-Ln0" secondAttribute="leading" constant="10" id="ZGq-Z0-m7f"/>
                                                 <constraint firstItem="6zL-pR-Ir5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="l4M-39-jqW" secondAttribute="trailing" constant="8" symbolic="YES" id="fPv-ic-Gi2"/>
@@ -480,7 +480,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eBV-PP-g44">
-                                                    <rect key="frame" x="326" y="15.666666666666664" width="51" height="31"/>
+                                                    <rect key="frame" x="331" y="15.666666666666664" width="51" height="31"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="31" id="Llo-zr-315"/>
                                                         <constraint firstAttribute="width" constant="49" id="qIh-Mx-GhD"/>
@@ -494,7 +494,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                                 <constraint firstItem="jQy-87-K8Y" firstAttribute="leading" secondItem="cti-2N-dcP" secondAttribute="leading" constant="10" id="TlH-a7-Bi5"/>
                                                 <constraint firstItem="jQy-87-K8Y" firstAttribute="top" secondItem="cti-2N-dcP" secondAttribute="top" constant="7" id="WGi-c4-qbU"/>
                                                 <constraint firstItem="eBV-PP-g44" firstAttribute="centerY" secondItem="cti-2N-dcP" secondAttribute="centerY" id="bdb-jS-LbO"/>
-                                                <constraint firstAttribute="trailing" secondItem="eBV-PP-g44" secondAttribute="trailing" constant="15" id="gL6-oA-bP1"/>
+                                                <constraint firstAttribute="trailing" secondItem="eBV-PP-g44" secondAttribute="trailing" constant="10" id="gL6-oA-bP1"/>
                                                 <constraint firstItem="ODV-9v-3eR" firstAttribute="leading" secondItem="jQy-87-K8Y" secondAttribute="leading" id="ogi-X6-US5"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -525,7 +525,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IEV-lY-1nW">
-                                                    <rect key="frame" x="326" y="15.666666666666664" width="51" height="31"/>
+                                                    <rect key="frame" x="331" y="15.666666666666664" width="51" height="31"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="49" id="qsp-dg-hNW"/>
                                                         <constraint firstAttribute="height" constant="31" id="ss2-Dg-lIU"/>
@@ -536,7 +536,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                                 <constraint firstItem="vfd-Y9-yzf" firstAttribute="top" secondItem="Pku-sa-Y4C" secondAttribute="bottom" constant="8" symbolic="YES" id="Ksr-Ih-vWm"/>
                                                 <constraint firstItem="IEV-lY-1nW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Pku-sa-Y4C" secondAttribute="trailing" constant="8" symbolic="YES" id="Vy6-aV-1xJ"/>
                                                 <constraint firstItem="Pku-sa-Y4C" firstAttribute="leading" secondItem="dcw-fY-brX" secondAttribute="leading" constant="10" id="gfq-d7-QQH"/>
-                                                <constraint firstAttribute="trailing" secondItem="IEV-lY-1nW" secondAttribute="trailing" constant="15" id="hOQ-Az-aLB"/>
+                                                <constraint firstAttribute="trailing" secondItem="IEV-lY-1nW" secondAttribute="trailing" constant="10" id="hOQ-Az-aLB"/>
                                                 <constraint firstItem="IEV-lY-1nW" firstAttribute="centerY" secondItem="dcw-fY-brX" secondAttribute="centerY" id="ktf-Lv-Xfr"/>
                                                 <constraint firstItem="Pku-sa-Y4C" firstAttribute="top" secondItem="dcw-fY-brX" secondAttribute="top" constant="7" id="llM-hi-veB"/>
                                                 <constraint firstItem="vfd-Y9-yzf" firstAttribute="leading" secondItem="Pku-sa-Y4C" secondAttribute="leading" id="wfA-9a-KNT"/>
@@ -566,7 +566,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
         <!--Anasayfa-->
         <scene sceneID="apK-ju-POQ">
             <objects>
-                <viewController id="4kz-zg-eC5" customClass="HomeViewController" customModule="Eftermo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="anasayfa" id="4kz-zg-eC5" customClass="HomeViewController" customModule="Eftermo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gpf-62-rUB">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -589,7 +589,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                             <constraint firstItem="4qT-WL-29j" firstAttribute="leading" secondItem="776-Vc-KQN" secondAttribute="leading" id="xuG-wo-HhS"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Anasayfa" image="home" id="dBm-k6-nbD"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="Anasayfa" image="home" id="dBm-k6-nbD"/>
                     <connections>
                         <outlet property="myWebView" destination="4qT-WL-29j" id="NGb-C2-bjM"/>
                     </connections>
@@ -598,10 +598,10 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
             </objects>
             <point key="canvasLocation" x="642" y="-259"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="zJS-n2-iza">
             <objects>
-                <tabBarController storyboardIdentifier="home" id="VpV-UO-tB6" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="home" id="VpV-UO-tB6" customClass="TabBarViewController" customModule="Eftermo" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nOW-Io-K5o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -619,7 +619,7 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
             <point key="canvasLocation" x="-74" y="-259"/>
         </scene>
     </scenes>
-    <color key="tintColor" red="0.9779199958" green="0.54500800370000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <color key="tintColor" name="AccentColor"/>
     <resources>
         <image name="AKTİVASYONU KALDIR" width="300" height="44"/>
         <image name="CİHAZ KURULUMU" width="277" height="39"/>
@@ -634,8 +634,11 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
         <image name="password-input" width="206.33332824707031" height="28.333333969116211"/>
         <image name="rapor" width="25" height="25"/>
         <image name="settings" width="25" height="25"/>
-        <image name="username-input" width="196" height="31"/>
+        <image name="username-input" width="195.33332824707031" height="30.666666030883789"/>
         <image name="www" width="126" height="16"/>
+        <namedColor name="AccentColor">
+            <color red="1" green="0.58399999141693115" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

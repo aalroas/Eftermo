@@ -14,7 +14,7 @@ import SafariServices
 class BildirimlerViewController: UIViewController,WKNavigationDelegate,WKUIDelegate,SFSafariViewControllerDelegate {
 
     @IBOutlet weak var myWebView: WKWebView!
-
+    let statusBarView = UIView()
     override
     func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +33,17 @@ class BildirimlerViewController: UIViewController,WKNavigationDelegate,WKUIDeleg
         myWebView.scrollView.showsHorizontalScrollIndicator = false
         myWebView.scrollView.showsVerticalScrollIndicator = false
         myWebView.navigationDelegate = self
+        
+        view.addSubview(statusBarView)
+        statusBarView.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            statusBarView.topAnchor.constraint(equalTo: view.topAnchor),
+            statusBarView.leftAnchor.constraint(equalTo: view.leftAnchor),
+            statusBarView.rightAnchor.constraint(equalTo: view.rightAnchor),
+            statusBarView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
+        ])
+      statusBarView.backgroundColor = UIColor(red: 0.95, green: 0.95, blue: 0.95, alpha: 1.00)
+        
     }
 
  
@@ -50,17 +61,6 @@ class BildirimlerViewController: UIViewController,WKNavigationDelegate,WKUIDeleg
                     return
                 }
             if (url.host == "www.eftermo.com"){
-    //            if url.absoluteString == "https://eftermo.com/logout" {
-    //                  self.removeCookies()
-    //                  UserDefaults.standard.removeAll()
-    //                  let storyboard = UIStoryboard(name: "Main", bundle: nil)
-    //                  let loginNavController = storyboard.instantiateViewController(withIdentifier: "login")
-    //                  if #available(iOS 13.0, *) {
-    //                      (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(loginNavController)
-    //                  } else {
-    //                      (UIApplication.shared.delegate as? AppDelegate)?.changeRootViewController(loginNavController)
-    //                  }
-    //            }
                     print("Open link locally")
                     decisionHandler(.allow)
             } else {
@@ -106,10 +106,8 @@ class BildirimlerViewController: UIViewController,WKNavigationDelegate,WKUIDeleg
         }
             
         }
-  
-
-
-
+    
+    
     func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
         dismiss(animated: true)
     }
