@@ -461,8 +461,8 @@ Kolay ve akılı. %100 Türk Mühendisler geliştirmiştir.</string>
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="62"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Akılı Bildirim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQy-87-K8Y">
-                                                    <rect key="frame" x="10" y="7" width="92" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Akıllı Bildirim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQy-87-K8Y">
+                                                    <rect key="frame" x="10" y="7" width="96" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="7nx-aq-WNb"/>
                                                     </constraints>

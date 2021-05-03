@@ -8,7 +8,6 @@
 import Foundation
 import SystemConfiguration
 import UIKit
-
 class Helper {
     
     static var app: Helper = {
@@ -52,5 +51,6 @@ class Helper {
          let needsConnection = flags.contains(.connectionRequired)
          return (isReachable && !needsConnection)
      }
+    
     
 }

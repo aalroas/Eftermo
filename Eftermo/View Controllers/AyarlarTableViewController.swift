@@ -49,10 +49,10 @@ class AyarlarTableViewController: UITableViewController {
         sendSeting(settingStatus: 1)
         print("bildirim durumu = acik ")
         UserDefaults.standard.ServisDurumuStatus = true
-        sendSeting(settingStatus: 3)
-        print("akilliBildirim durumu = acik ")
-        akilliBildirim.isOn =  true
-        UserDefaults.standard.akilliBildirimStatus = true
+        sendSeting(settingStatus: 2)
+        print("anlikBildirim durumu = acik ")
+        anlikBildirim.isOn =  true
+        UserDefaults.standard.anlikBildirimStatus = true
      
        } else {
         
@@ -81,6 +81,7 @@ class AyarlarTableViewController: UITableViewController {
       
         UserDefaults.standard.ServisDurumuStatus = true
         servisDurumu.isOn = true
+        sendSeting(settingStatus: 1)
        }
        else {
         print("akilliBildirim   = acik ")
@@ -106,6 +107,7 @@ class AyarlarTableViewController: UITableViewController {
         
         UserDefaults.standard.ServisDurumuStatus = true
         servisDurumu.isOn = true
+        sendSeting(settingStatus: 1)
        }
        else {
         

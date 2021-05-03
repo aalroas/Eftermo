@@ -32,6 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // if user is logged in before
         if let loggedAccessToken = UserDefaults.standard.accessToken {
             print(loggedAccessToken)
+            print("token found")
             let home = storyboard.instantiateViewController(withIdentifier: "home")
             self.window?.rootViewController = home
         } else {

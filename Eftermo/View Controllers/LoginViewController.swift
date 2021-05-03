@@ -35,6 +35,7 @@ class LoginViewController: UIViewController,UITextFieldDelegate, SFSafariViewCon
         }
         
        print("DeviceToken in login")
+        print(UserDefaults.standard.DeviceToken)
     
         let data : Data =  "gkad=\(usernameTextField.text!)&gsif=\(passwordTextField.text!)&device_token=\(UserDefaults.standard.DeviceToken  ?? "0")".data(using: .utf8)!
                 var request : URLRequest = URLRequest(url: url)
@@ -73,8 +74,8 @@ class LoginViewController: UIViewController,UITextFieldDelegate, SFSafariViewCon
                         let sendSettings = AyarlarTableViewController()
                         sendSettings.sendSeting(settingStatus: 1)
                         UserDefaults.standard.ServisDurumuStatus = true
-                        sendSettings.sendSeting(settingStatus: 3)
-                        UserDefaults.standard.akilliBildirimStatus = true
+                        sendSettings.sendSeting(settingStatus: 2)
+                        UserDefaults.standard.anlikBildirimStatus = true
                         SVProgressHUD.dismiss()
                         let storyboard = UIStoryboard(name: "Main", bundle: nil)
                         let homeController = storyboard.instantiateViewController(withIdentifier: "home")
